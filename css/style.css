@@ -1,15 +1,15 @@
-/*----------
+/*-----------
     Reset
- ---------*/
+ ----------*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*----------
+/*-----------
     Common
- ---------*/
+ ----------*/
 
 html {
     scroll-behavior: smooth;
@@ -33,9 +33,9 @@ h2 {
     letter-spacing: 4px;
 }
 
-/*----------
+/*-----------
     Nav
- ---------*/
+ ----------*/
 
 .main-nav {
     position: fixed;
@@ -61,9 +61,9 @@ a {
     line-height: 50px;
 }
 
-/*----------
-    Main
- ---------*/
+/*-----------
+    Section
+ ----------*/
 
 #first {
     background-color: #ff0000;
@@ -77,9 +77,9 @@ a {
     background-color: #ffff00;
 }
 
-/*----------
+/*-----------
     Product
- ---------*/
+ ----------*/
 
  .product-container {
     position: absolute;
