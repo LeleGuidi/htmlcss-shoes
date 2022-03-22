@@ -17,21 +17,14 @@ body {
 }
 
 /*----------
-    Header
- ---------*/
-
-header {
-    position: relative;
-}
-
-/*----------
     Nav
  ---------*/
 
 .main-nav {
-    position: absolute;
+    position: fixed;
     top: 40px;
     right: 20px;
+    z-index: 10;
 }
 
 .main-nav ul li {
@@ -54,3 +47,19 @@ a {
 /*----------
     Main
  ---------*/
+
+ section {
+     height: 100vh;
+ }
+
+ #first {
+     background-color: #ff0000;
+ }
+
+ #second {
+     background-color: #008000;
+ }
+
+ #third {
+     background-color: #ffff00;
+ }
